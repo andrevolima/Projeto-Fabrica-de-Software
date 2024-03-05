@@ -6,4 +6,9 @@ while i < num:
         break
     i += 1
 
-print(f"{num} {'é um número primo.' if i == num else 'não é um número primo.'}")
+if (i == num):
+     print(f"{num} {'é um número primo.'}")
+else:
+    print('não é um número primo.')
+
+
